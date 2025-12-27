@@ -233,13 +233,13 @@ ScrollTrigger.create({
 const contactt1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".contact",
-    start: "top 30%",
+    start: "top 50%",
     // once: true,
-    // markers:true,
+    markers:true,
   }
 });
 
-aboutTl
+contactt1
   .from(".contact h2", {
     opacity: 0,
     y: 50,
@@ -249,7 +249,7 @@ aboutTl
     opacity: 0,
     x:50,
     duration: 1
-  })
+  },"-=0.3")
   .from(".contact-content", {
     opacity: 0,
     y: 30,
