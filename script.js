@@ -235,7 +235,7 @@ const contactt1 = gsap.timeline({
     trigger: ".contact",
     start: "top 50%",
     // once: true,
-    markers:true,
+    // markers:true,
   }
 });
 
