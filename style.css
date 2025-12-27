@@ -101,13 +101,15 @@ nav ul{
   object-fit: cover;
   width: 40rem;
   height: 25rem;
-  /* filter: blur(1px); */
+  filter: blur(0.5px);
   opacity: 0.6;
   border-radius: 1rem;
   overflow: hidden;
   z-index: 1;
 }
-
+.home-about>div{
+  overflow: hidden;
+}
 .home-about{
   width: 30rem;
   height: 20rem;
