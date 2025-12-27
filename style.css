@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "jersey10";
-  src: url(/font/Jersey10-Regular.ttf);
+  src: url("./font/Jersey10-Regular.ttf");
   /* letter-spacing: 2rem; */
 }
 * {
@@ -67,7 +67,7 @@ nav{
   height: 2rem;
   width: 2rem;
   padding: 1rem;
-  background: url(/icons/icons8-menu-50.png);
+  background: url("./icons/icons8-menu-50.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -172,7 +172,7 @@ nav ul{
 .my-img{
   width: 15rem;
   height: 20rem;
-  background:url(/myImg.jpeg);
+  background:url("./myImg.jpeg");
   background-size: cover;
   border-radius: 1rem;
   margin: 0rem 2rem;
@@ -257,7 +257,7 @@ nav ul{
   /* background: black; */
 }
 .email{
-  background: url(/icons/icons8-gmail-48.png);
+  background: url("./icons/icons8-gmail-48.png");
   background-size: contain;
   background-repeat: no-repeat;
   
@@ -269,22 +269,22 @@ nav ul{
   color: inherit;
 }
 .phone{
-  background: url(/icons/icons8-phone-48.png);
+  background: url("./icons/icons8-phone-48.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .location{
-  background: url(/icons/icons8-location-48.png);
+  background: url("./icons/icons8-location-48.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .github{
-  background: url(/icons/icons8-github-48.png);
+  background: url("./icons/icons8-github-48.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .linkedin{
-  background: url(/icons/icons8-linkedin-48.png);
+  background: url("./icons/icons8-linkedin-48.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -404,7 +404,7 @@ nav .nav-list li a {
     height: 2rem;
     width: 2rem;
     padding: 1rem;
-    background: url(/icons/icons8-cross-24.png);
+    background: url("./icons/icons8-cross-24.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
