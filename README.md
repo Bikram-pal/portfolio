@@ -12,14 +12,8 @@ This portfolio showcases my skills, projects, and contact information with smoot
 ### Desktop View
 ![Home Desktop](screenshort/homePage.png)
 
-### About Section
-![About](screenshort/videoclip.mp4)
-
-### Mobile View
-![Mobile View](screenshots/mobile-view.png)
 ## 🎥 Demo Video
-
-https://github.com/Bikram-pal/portfolio/screenshort/videoclip.mp4
+https://github.com/user-attachments/assets/9fac0fb9-a67a-4c87-b081-0e01902c5f69
 
 ---
 ## ✨ Features
@@ -118,6 +112,10 @@ Uses multiple media queries for smooth responsiveness.
 - Dark / Light mode toggle
 - SEO optimization
 - Performance improvements
+
+
+
+
 
 ---
 
