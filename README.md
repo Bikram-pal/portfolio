@@ -7,7 +7,21 @@ This portfolio showcases my skills, projects, and contact information with smoot
 👉 https://bikram-pal.github.io/portfolio/
 
 ---
+## 📸 Screenshots
 
+### Desktop View
+![Home Desktop](screenshort/homePage.png)
+
+### About Section
+![About](screenshort/videoclip.mp4)
+
+### Mobile View
+![Mobile View](screenshots/mobile-view.png)
+## 🎥 Demo Video
+
+https://github.com/Bikram-pal/portfolio/screenshort/videoclip.mp4
+
+---
 ## ✨ Features
 
 - Fully responsive design (mobile, tablet, desktop)
@@ -39,11 +53,13 @@ portfolio/
 │── index.html
 │── style.css
 │── script.js
+│── screenshort
 │── font/
 │   └── Jersey10-Regular.ttf
 │── icons/
 │── assets/
 │── README.md
+
 ```
 
 ---
