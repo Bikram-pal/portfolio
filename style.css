@@ -214,7 +214,7 @@ nav ul{
 }
 .information{
   margin-top: 2rem;
-  width: 20rem;
+  /* width: 20rem; */
   font-size: 2vw;
   height: auto;
   /* background-color: cadetblue; */
@@ -245,6 +245,10 @@ nav ul{
   background-repeat: no-repeat;
   border-radius: 1rem;
 }
+.information div{
+  gap:0.5rem
+}
+
 .info{
   display: flex;
   align-items: center;
@@ -367,7 +371,73 @@ nav ul{
   }
   
 }
-
+@media (max-width: 650px) {
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .contact-content  .content{
+    margin-left: 0.5rem;
+  }
+  .contact h2{
+    margin: 0;
+    font-size: 1.7rem;
+  }
+  .contact-content .content{
+    margin: 0;
+    /* margin-left: 0.5rem; */
+    letter-spacing: 0.1vw;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    
+  }
+  .contact-content .two{
+    margin-top: 0.5rem;
+  }
+  .information div{
+    font-size: 1rem;
+  }
+  .information h3{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   
+  }
+  .content-about .content{
+    margin: 0;
+    /* margin-left: 0.5rem; */
+    letter-spacing: 0.1vw;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+  }
+  .contact h2{
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .contact-content .content{
+    margin: 0;
+    /* margin-left: 0.5rem; */
+    letter-spacing: 0.1vw;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    
+  }
+  .contact-content .two{
+    margin-top: 0.5rem;
+  }
+  .information div{
+    font-size: 1rem;
+  }
+  .information h3{
+    font-size: 1.5rem;
+  }
+}
 /* nav .nav-list {
   
   justify-content: space-between;
@@ -450,3 +520,75 @@ nav .nav-list li a {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(170, 80, 80);
 }
+/* for xxl screen 1400width */
+@media(min-width: 1400px)
+{
+  nav{
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  nav>.nav-list{
+    gap: 1.5rem;
+  }
+  .logo>img{
+    height: 2rem;
+  }
+  .home-about{
+    width: 50rem;
+    height: auto;
+  }
+  .home-about h1{
+    font-size: 7vw;
+  }
+  .home-about h2{
+    font-size: 5vw;
+  }
+  .home-about h4{
+    font-size: 3vw;
+    font-weight: 300;
+  }
+  .home-img{
+    width: 50rem;
+    height: 30rem;
+  }
+  .content-about-box{
+    margin-top: 10rem;
+  }
+  .contact h2,
+  .about h2{
+    font-size: 10rem;
+  }
+  .my-img{
+    width: 20rem;
+    height: 25rem;
+    margin: 0rem 4rem;
+  }
+  .content-about .content{
+    line-height: 4rem;
+  }
+  .contact, .about, .home{
+    padding-top: 6rem;
+  }
+  .contact-content{
+    margin:4rem 2rem 2rem;
+    padding: 2rem 0.5rem;
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .contect-img{
+    width: 35rem;
+    height: 30rem;
+  }
+  .information div{
+    gap:1rem
+  }
+  .contact-content .content{
+    margin:1rem;
+    line-height: 3rem;
+  }
+}
+
